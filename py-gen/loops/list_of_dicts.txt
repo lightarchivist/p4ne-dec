@@ -1,0 +1,8 @@
+[
+{'student': '001', 'name': 'Harry Belafonte', 'job-title': 'crooner', 'status': 'living'}, 
+{'student': '002', 'name': 'Martha Gellhorn', 'job-title': 'war correspondent', 'status': 'dead'}, 
+{'student': '003', 'name': 'Paul Erdos', 'job-title': 'eccentric mathamatician', 'status': 'dead'}, 
+{'student': '004', 'name': 'David Attenborough', 'job-title': 'naturist', 'status': 'living'}, 
+{'student': '005', 'name': 'Freya Stark', 'job-title': 'explorer', 'status': 'dead'}, 
+{'student': '006', 'name': 'Ngozi Okonjo-Iweala', 'job-title': 'deal-maker', 'status': 'living'}
+]
