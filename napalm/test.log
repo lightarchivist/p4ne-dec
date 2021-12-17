@@ -1,0 +1,589 @@
+DEBUG:paramiko.transport:starting thread (client mode): 0x2e6fc7b8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.9
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.9)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'arcfour256', 'arcfour128', 'aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'aes192-cbc', 'aes256-cbc', 'arcfour', 'rijndael-cbc@lysator.liu.se'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'arcfour256', 'arcfour128', 'aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'aes192-cbc', 'aes256-cbc', 'arcfour', 'rijndael-cbc@lysator.liu.se'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-md5-etm@openssh.com', 'hmac-ripemd160-etm@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'hmac-md5', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-md5-etm@openssh.com', 'hmac-ripemd160-etm@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'hmac-md5', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-ed25519 host key for 10.4.4.41: b'4c18587667e481c8739f8bdd59741f2d'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: Last login: Wed Feb 24 16:45:35 2021 from 10.0.0.141
+
+--- JUNOS 15.1X49-D100.6 built 2017-06-28 07:33:31 UTC
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'set cli screen-width 511\n'
+DEBUG:netmiko:Pattern is: Screen width set to
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+
+DEBUG:netmiko:_read_channel_expect read_data: set cli screen-width 511
+
+DEBUG:netmiko:_read_channel_expect read_data: sntuser@vSRX-4-1> 
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+
+DEBUG:netmiko:_read_channel_expect read_data: sntuser@vSRX-4-1> 
+
+
+DEBUG:netmiko:_read_channel_expect read_data: sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+
+DEBUG:netmiko:_read_channel_expect read_data: sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+
+DEBUG:netmiko:_read_channel_expect read_data: sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+
+DEBUG:netmiko:_read_channel_expect read_data: sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+DEBUG:netmiko:_read_channel_expect read_data: set cli
+DEBUG:netmiko:_read_channel_expect read_data:  screen-width 511
+DEBUG:netmiko:_read_channel_expect read_data:  
+Screen width set to 511
+
+sntuser@vSRX-4-1> 
+DEBUG:netmiko:Pattern found: Screen width set to 
+
+set cli screen-width 511
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> 
+
+sntuser@vSRX-4-1> set cli screen-width 511 
+Screen width set to 511
+
+sntuser@vSRX-4-1> 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: set cli complete-on-space off
+
+DEBUG:netmiko:write_channel: b'set cli complete-on-space off\n'
+DEBUG:netmiko:Pattern is: set\ cli\ complete\-on\-space\ off
+DEBUG:netmiko:_read_channel_expect read_data: set
+DEBUG:netmiko:_read_channel_expect read_data:  cli complete-on-space off 
+DEBUG:netmiko:Pattern found: set\ cli\ complete\-on\-space\ off set cli complete-on-space off 
+DEBUG:netmiko:set cli complete-on-space off 
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: set cli screen-length 0
+
+DEBUG:netmiko:write_channel: b'set cli screen-length 0\n'
+DEBUG:netmiko:Pattern is: set\ cli\ screen\-length\ 0
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: Disabling complete-on-space
+
+sntuser@vSRX-4-1> 
+DEBUG:netmiko:_read_channel_expect read_data: set cli screen-length 0
+DEBUG:netmiko:Pattern found: set\ cli\ screen\-length\ 0 
+Disabling complete-on-space
+
+sntuser@vSRX-4-1> set cli screen-length 0
+DEBUG:netmiko:
+Disabling complete-on-space
+
+sntuser@vSRX-4-1> set cli screen-length 0
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:read_channel:  
+Screen length set to 0
+
+sntuser@vSRX-4-1> 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+sntuser@vSRX-4-1> 
+DEBUG:netmiko:read_channel: 
+
+sntuser@vSRX-4-1> 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is sntuser@vSRX-4-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+sntuser@vSRX-4-1> 
+DEBUG:netmiko:read_channel: 
+
+sntuser@vSRX-4-1> 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is sntuser@vSRX-4-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'show version\n'
+DEBUG:netmiko:Pattern is: show\ version
+DEBUG:netmiko:_read_channel_expect read_data: show
+DEBUG:netmiko:_read_channel_expect read_data:  version
+DEBUG:netmiko:Pattern found: show\ version show version
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel:  
+Hostname: vSRX-4-1
+
+DEBUG:netmiko:read_channel: Model: vsrx
+
+DEBUG:netmiko:read_channel: Junos: 15.1X49-D100.6
+
+DEBUG:netmiko:read_channel: JUNOS Software Release [15.1X49-D100.6]
+
+sntuser@vSRX-4-1> 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+sntuser@vSRX-4-1> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'configure\n'
+DEBUG:netmiko:Pattern is: configure
+DEBUG:netmiko:_read_channel_expect read_data: configure
+DEBUG:netmiko:Pattern found: configure configure
+DEBUG:netmiko:Pattern is: Entering configuration mode
+DEBUG:netmiko:_read_channel_expect read_data:  
+
+DEBUG:netmiko:_read_channel_expect read_data: Entering configuration mode
+
+[edit]
+sntuser@vSRX-4-1# 
+DEBUG:netmiko:Pattern found: Entering configuration mode  
+Entering configuration mode
+
+[edit]
+sntuser@vSRX-4-1# 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+[edit]
+sntuser@vSRX-4-1# 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'set system host-name vSRX-4-1\n'
+DEBUG:netmiko:Pattern is: set\ system\ host\-name\ vSRX\-4\-1
+DEBUG:netmiko:_read_channel_expect read_data: set
+DEBUG:netmiko:_read_channel_expect read_data:  system
+DEBUG:netmiko:_read_channel_expect read_data:  host-name vSRX-4-1
+DEBUG:netmiko:Pattern found: set\ system\ host\-name\ vSRX\-4\-1 set system host-name vSRX-4-1
+DEBUG:netmiko:Pattern is: (?:sntuser\@vSRX\-4\-1|#)
+DEBUG:netmiko:_read_channel_expect read_data:  
+
+DEBUG:netmiko:_read_channel_expect read_data: 
+[edit]
+sntuser@vSRX-4-1# 
+DEBUG:netmiko:Pattern found: (?:sntuser\@vSRX\-4\-1|#)  
+
+[edit]
+sntuser@vSRX-4-1# 
+DEBUG:netmiko:write_channel: b'commit\n'
+DEBUG:netmiko:Pattern is: commit
+DEBUG:netmiko:_read_channel_expect read_data: commit
+DEBUG:netmiko:Pattern found: commit commit
+DEBUG:netmiko:Pattern is: (?:sntuser\@vSRX\-4\-1|#)
+DEBUG:netmiko:_read_channel_expect read_data:  
+
+DEBUG:netmiko:_read_channel_expect read_data: commit complete
+
+
+DEBUG:netmiko:_read_channel_expect read_data: [edit]
+sntuser@vSRX-4-1# 
+DEBUG:netmiko:Pattern found: (?:sntuser\@vSRX\-4\-1|#)  
+commit complete
+
+[edit]
+sntuser@vSRX-4-1# 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+[edit]
+sntuser@vSRX-4-1# 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'exit configuration-mode\n'
+DEBUG:netmiko:send_command_timing current output: 
+DEBUG:netmiko:read_channel: exit configuration-mode 
+Exiting configuration mode
+
+sntuser@vSRX-4-1> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:send_command_timing final output: exit configuration-mode 
+Exiting configuration mode
+
+sntuser@vSRX-4-1> 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+sntuser@vSRX-4-1> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:configure 
+Entering configuration mode
+
+[edit]
+sntuser@vSRX-4-1# set system host-name vSRX-4-1 
+
+[edit]
+sntuser@vSRX-4-1# commit 
+commit complete
+
+[edit]
+sntuser@vSRX-4-1# exit configuration-mode 
+Exiting configuration mode
+
+sntuser@vSRX-4-1> 

@@ -1,0 +1,2 @@
+2021-11-26 15:12:55,875 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 3 hosts
+2021-11-26 15:12:55,877 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 3 hosts

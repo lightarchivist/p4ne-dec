@@ -1,0 +1,18 @@
+# Nornir groups file
+---
+ubuntu:
+  port: 22
+  username: sntuser
+  password: Ilovenetworks99
+  platform: linux
+  data:
+    priority: 2
+    site: paris
+    colour: pink
+
+redhat:
+  port: 22
+  username: sntuser
+  password: Ilovenetworks99
+  platform: linux
+

@@ -1,0 +1,12 @@
+## Nornir Defaults File 
+---
+# 3 things needed to access device.
+platform: linux
+username: sntuser
+password: Ilovenetworks99
+# this is needed for the enable password
+connection_options:
+  netmiko:
+    extras:
+      secret: Ilovenetworks99
+

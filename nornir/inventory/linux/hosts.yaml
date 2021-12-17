@@ -1,0 +1,17 @@
+# Nornir hosts file
+---
+Ubu20-Hyp-0:
+    # the following are expected and used
+    # by nornir to access the device
+    hostname: 10.99.99.120
+    port: 22
+    username: sntuser
+    password: Ilovenetworks99
+    platform: linux
+    # for the enable password
+    connection_options:
+      netmiko:
+        extras:
+          secret: Ilovenetworks99
+    # the data section is where you can add
+    # your own stuff

@@ -1,0 +1,43 @@
+{
+    "interface": [
+        {
+            "name": "GigabitEthernet1",
+            "description": "WAN",
+            "enabled": true,
+            "ipv4": {
+                "address": [
+                    {
+                        "ip": "172.17.0.2",
+                        "netmask": "255.255.0.0"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "GigabitEthernet2",
+            "description": "WAN",
+            "enabled": true,
+            "ipv4": {
+                "address": [
+                    {
+                        "ip": "172.16.0.2",
+                        "netmask": "255.255.0.0"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "GigabitEthernet3",
+            "description": "LAN",
+            "enabled": true,
+            "ipv4": {
+                "address": [
+                    {
+                        "ip": "10.1.1.1",
+                        "netmask": "255.255.255.0"
+                    }
+                ]
+            }
+        }
+    ] 
+}

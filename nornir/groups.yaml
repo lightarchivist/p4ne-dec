@@ -1,0 +1,29 @@
+# Nornir groups file
+---
+cisco_rtrs:
+  port: 22
+  username: sntuser
+  password: Ilovenetworks99
+  platform: cisco_ios
+  data:
+    priority: 2
+    site: paris
+    colour: ciscogroup_pink
+
+junos_rtrs:
+  port: 22
+  username: sntuser
+  password: Ilovenetworks99
+  platform: juniper_junos
+
+core_rtrs:
+  port: 22
+  username: sntuser
+  password: Ilovenetworks99
+  platform: cisco_ios
+  data:
+    colour: coregrouop_red
+
+branch_rtrs:
+  data:
+    colour: branshgroup_green
